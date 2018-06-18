@@ -15,16 +15,15 @@ def fibonnaci(N):
         print(V)
 
 
-def inArray(val):
-    table = [1, 2, 3, 4, 8]
+def inArray(table, var):
     for i in table:
-        if i == val:
+        if i == var:
             print('La variable', i, 'est dans le tableau')
     print('La variable', i, "n'est pas dans le tableau")
 
 
-inArray(5)
-inArray(2)
+inArray([1, 2, 3, 4, 8], 5)
+inArray([1, 2, 3, 4, 8], 2)
 
 # input = int(input("Donnez un entier : "))
 # addition(input)
