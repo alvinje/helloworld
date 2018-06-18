@@ -5,10 +5,10 @@ def addition(n):
     print(somme)
 
 
-def fibonnaci():
+def fibonnaci(N):
     n2 = 0
     n1 = 1
-    for i in range(1, N):
+    for i in range(1, N+1):
         V = n1 + n2
         n2 = n1
         n1 = V
