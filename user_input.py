@@ -25,9 +25,16 @@ def inArray(table, var):
     if isInArray == False:
         print('La variable', var, "n'est pas dans le tableau")
 
+def iArray(array):
+    k = 0
+    for i in array:
+        k= k + 1
+        print(k)
 
-inArray([1, 2, 3, 4, 8], 5)
-inArray([1, 2, 3, 4, 8], 2)
+
+iArray([1, 8, 3, 4, 8])
+# inArray([1, 2, 3, 4, 8], 5)
+# inArray([1, 2, 3, 4, 8], 2)
 
 # input = int(input("Donnez un entier : "))
 # addition(input)
