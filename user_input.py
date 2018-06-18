@@ -31,7 +31,7 @@ def returnIndice(array, var):
     for i in array:
         if i == var:
             indice.append(k)
-        k = k + 1
+        k += 1
     print(indice)
 
 
