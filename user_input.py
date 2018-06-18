@@ -16,10 +16,14 @@ def fibonnaci(N):
 
 
 def inArray(table, var):
+    isInArray = False
     for i in table:
         if i == var:
+            isInArray = True
             print('La variable', i, 'est dans le tableau')
-    print('La variable', i, "n'est pas dans le tableau")
+
+    if isInArray == False:
+        print('La variable', i, "n'est pas dans le tableau")
 
 
 inArray([1, 2, 3, 4, 8], 5)
