@@ -24,6 +24,7 @@ def inArray(val):
 
 
 inArray(5)
+inArray(2)
 
 # input = int(input("Donnez un entier : "))
 # addition(input)
