@@ -35,7 +35,28 @@ def returnIndice(array, var):
     print(indice)
 
 
-returnIndice([1, 8, 3, 4, 8], 8)
+def isPalyndrome(string):
+    if string == string[::-1]:
+        print(string, "est bien un palyndrome")
+    else:
+        print(string, "n'est pas un palyndrome")
+
+
+def maxNumber(array):
+    k = 0
+    for i in array:
+        if i > k:
+            k = i
+    print(k)
+
+array = list()
+for i in range(0, 10):
+    array.append(int(input("Veuillez entrer un nombre : ")))
+maxNumber(array)
+
+# isPalyndrome("kayak")
+
+# returnIndice([1, 8, 3, 4, 8], 8)
 # inArray([1, 2, 3, 4, 8], 5)
 # inArray([1, 2, 3, 4, 8], 2)
 
