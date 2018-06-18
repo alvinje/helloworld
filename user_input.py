@@ -15,8 +15,18 @@ def fibonnaci(N):
         print(V)
 
 
+def inArray(val):
+    table = [1, 2, 3, 4, 8]
+    for i in table:
+        if i == val:
+            print('La variable', i, 'est dans le tableau')
+    print('La variable', i, "n'est pas dans le tableau")
+
+
+inArray(5)
 
 # input = int(input("Donnez un entier : "))
 # addition(input)
-N = int(input("Entrer le maximum de la suite : "))
-fibonnaci(N)
+
+# N = int(input("Entrer le maximum de la suite : "))
+# fibonnaci(N)
