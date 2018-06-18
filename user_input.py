@@ -25,14 +25,17 @@ def inArray(table, var):
     if isInArray == False:
         print('La variable', var, "n'est pas dans le tableau")
 
-def iArray(array):
+def returnIndice(array, var):
     k = 0
+    indice = list()
     for i in array:
-        k= k + 1
-        print(k)
+        k = k + 1
+        if i == var:
+            indice.append(k)
+    print(indice)
 
 
-iArray([1, 8, 3, 4, 8])
+returnIndice([1, 8, 3, 4, 8], 8)
 # inArray([1, 2, 3, 4, 8], 5)
 # inArray([1, 2, 3, 4, 8], 2)
 
