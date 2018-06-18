@@ -29,9 +29,9 @@ def returnIndice(array, var):
     k = 0
     indice = list()
     for i in array:
-        k = k + 1
         if i == var:
             indice.append(k)
+        k = k + 1
     print(indice)
 
 
