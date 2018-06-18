@@ -47,7 +47,7 @@ def maxNumber(array):
     for i in array:
         if i > k:
             k = i
-    print(k)
+    print("Le chiffre le plus grand est le ", k)
 
 array = list()
 for i in range(0, 10):
